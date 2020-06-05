@@ -1,1 +1,3 @@
 This is my implementation of a simple feed forward neural network.  The network was trained and tested to identify images of single digits (0-9).  The program initalizes an input layer of 784 nodes (number of pixels in each image) and contains a specified amount of hidden nodes and hidden layers which can be changed in main.cpp.  The implementation of the network is in SimpleFeedForwardNetwork.cpp while main.cpp linearly transforms the data before training and testing.  MNIST_reader.h contains helper functions written by our professor to pull the data in from the given data files.
+
+Training data: http://yann.lecun.com/exdb/mnist/
